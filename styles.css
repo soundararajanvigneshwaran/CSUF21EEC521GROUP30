@@ -17,3 +17,19 @@
 #promo3 {
   height: 230px;
 }
+
+.gallery-item {
+  height: 300px;
+}
+
+#gallery-item-1 {
+  background-color: #F99782;
+}
+
+#gallery-item-2 {
+  background-color: #ABF776;
+}
+
+#gallery-item-3 {
+  background-color: #D476F7;
+}
