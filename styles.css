@@ -1,5 +1,9 @@
-#header {
+#header, #footer {
   background-color: #ECECEB;
+}
+
+#footer {
+  height: 100px;
 }
 
 #promo1, #promo2, #promo3 {
