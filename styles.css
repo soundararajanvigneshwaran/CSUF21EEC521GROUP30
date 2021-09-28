@@ -1,0 +1,19 @@
+#header {
+  background-color: #ECECEB;
+}
+
+#promo1, #promo2, #promo3 {
+  background-color: #B9B9B6;
+}
+
+#promo1 {
+  height: 400px;
+}
+
+#promo2 {
+  height: 150px;
+}
+
+#promo3 {
+  height: 230px;
+}
