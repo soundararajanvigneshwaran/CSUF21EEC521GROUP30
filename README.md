@@ -6,9 +6,10 @@ Customer satisfaction is one of the most and important aspects, particularly in 
 
 
 **Features:**
-Homepage about, menu, content, images, testimonials, takeout/delivery options, hours operation and contact information, etc
+Homepage about, menu, content, images, promotions, hours operation, takeout/delivery options and contact information, etc
 
 
 **Technologies:**
 HTML,
-CSS
+CSS,
+Bootstrap
