@@ -10,6 +10,6 @@ Homepage about, menu, content, images, promotions, hours operation, takeout/deli
 
 
 **Technologies:**
-HTML5,
+HTML,
 CSS,
 Bootstrap
