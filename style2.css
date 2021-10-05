@@ -1,0 +1,28 @@
+body
+{
+    font-family: Arial;
+}
+.cpn1 
+{
+    border: 10px solid violet;
+    width: 40%;
+    float: left;
+    border-radius: 25px;
+    max-width: 300px;
+    margin-top: auto;
+}
+.cnt
+{
+    padding: 1px 50px;
+    width: 60%;
+}
+.prm
+{
+    background-color: #faa;
+    padding: 0px;
+}
+.Expiry
+{
+    color:orangered;
+}
+
