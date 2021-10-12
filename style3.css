@@ -1,0 +1,86 @@
+body
+{
+    font-family: Arial;
+}
+.cpn1 
+{
+    border: 10px solid violet;
+    width: 40%;
+    float: left;
+    border-radius: 25px;
+    max-width: 300px;
+    margin-block-end: auto;
+}
+.cnt
+{
+    padding: 1px 50px;
+    width: 60%;
+}
+.prm
+{
+    background-color: #faa;
+    padding: 0px;
+}
+.Expiry
+{
+    color:orangered;
+}
+
+body
+{
+    font-family: verdana;
+}
+body{
+    margin:0;
+    padding:0;
+}
+header,footer{
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    color: purple;
+}
+
+header h2{
+   position: absolute;
+   margin-top: 20px;
+   left: 20%; 
+}
+
+header
+{
+    height: 10vh;
+}
+footer
+{
+    height:15vh;
+    bottom:0;
+}     
+
+footer h2
+{
+    position: absolute;
+    left:45%;
+}
+.abcd
+{
+    position: absolute;
+    width: 100%;
+}
+
+.abcd a
+{
+    position: relative;
+    left:45%;
+    top:20px;
+    color:red;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer p
+{
+    position: absolute;
+    left: 48%;
+    bottom: 20px;
+    color: peru;
+}
