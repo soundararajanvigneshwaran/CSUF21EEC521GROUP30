@@ -22,18 +22,41 @@
   height: 230px;
 }
 
-.gallery-item {
-  height: 300px;
+.gallery-item{
+  width: 800px;
+}
+.carousel-inner {
+  height: 800px;
 }
 
 #gallery-item-1 {
-  background-color: #F99782;
+  background-image: url('../Images/Image1.jpg');
 }
 
 #gallery-item-2 {
-  background-color: #ABF776;
+  background-image: url('../Images/Image2.jpg');
 }
 
 #gallery-item-3 {
-  background-color: #D476F7;
+  background-image: url('../Images/Image3.jpg');
+}
+
+#gallery-item-4 {
+  background-image: url('../Images/Image4.jpg')
+}
+
+#gallery-item-5 {
+background-image: url('../Images/Image5.jpg');
+}
+
+#gallery-item-6 {
+  background-image: url('../Images/Image6.jpg');
+}
+
+#gallery-item-7 {
+  background-image: url('../Images/Image7.jpg');
+}
+
+#gallery-item-8 {
+  background-image: url('../Images/Image8.jpg');
 }
