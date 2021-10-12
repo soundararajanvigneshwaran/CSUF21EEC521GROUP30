@@ -1,0 +1,79 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box    ;
+}
+h1{
+text-align: center;
+columns: green;
+padding: 20px;
+}
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+nav{
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color:blanchedalmond;
+    transition: 0.2s ease-in;
+    font-size:18 px;
+}
+nav ul a:hover{
+    background: brown;
+    color:white;
+}
+.item{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(3,2fr);
+    padding: 30px 20px;
+grid-column-gap:20px;
+grid-row-gap: 30px;
+width: 50%;
+}
+
+.Image_img{
+  display: block;
+  
+}
+.image_overlay{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.item:hover .image_overlay{
+    opacity: 1;
+}
+
+.Item_Title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.ItemDescription{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
