@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Divide's Restaurant Login Form</title>
+        <link rel="stylesheet" type="text/css" href="style 4.css">
+    <body>
+        
+       <div class="center">
+           <h1>Login</h1>
+           <form method="post">
+               <div class="txt_field">
+                   <input type="text" required>
+                   <label>Username</label>
+               </div>
+               <div class="txt_field">
+                   <input type="password" required>
+                   <label>Password</label>
+               </div>
+               <div class="pass">Forgot Password ?</div>
+               <input type="submit" value="login">
+               <div class="signup_link">
+                   Not a member? <a href="#">Signup</a>
+               </div>
+
+               <button onclick="myOnClickFn()">Submit</button>
+               <script>
+                   function myOnClickFn()
+                   {
+                       document.location.href="new.html";
+                   }
+               </script>
+
+           </form>
+
+       </div>
+</html>

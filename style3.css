@@ -1,3 +1,15 @@
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
 body
 {
     font-family: Arial;
@@ -6,14 +18,14 @@ body
 {
     border: 10px solid violet;
     width: 40%;
-    float: left;
+    float: right;
     border-radius: 25px;
     max-width: 300px;
     margin-block-end: auto;
 }
 .cnt
 {
-    padding: 1px 50px;
+    padding: 0px 50px;
     width: 60%;
 }
 .prm
@@ -44,12 +56,12 @@ header,footer{
 header h2{
    position: absolute;
    margin-top: 20px;
-   left: 20%; 
+   left: 20%;
 }
 
 header
 {
-    height: 10vh;
+    height: 0vh;
 }
 footer
 {
@@ -60,7 +72,7 @@ footer
 footer h2
 {
     position: absolute;
-    left:45%;
+    right:45%;
 }
 .abcd
 {
@@ -80,7 +92,7 @@ footer h2
 footer p
 {
     position: absolute;
-    left: 48%;
+    right: 48%;
     bottom: 20px;
     color: peru;
 }
