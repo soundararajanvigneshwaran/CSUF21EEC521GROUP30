@@ -1,5 +1,5 @@
 #header, #footer {
-  background-color: #ECECEB;
+  background-color: lightgoldenrodyellow;
 }
 
 #footer {
@@ -7,19 +7,19 @@
 }
 
 #promo1, #promo2, #promo3 {
-  background-color: #B9B9B6;
+  background-color: grey;
 }
 
 #promo1 {
-  height: 400px;
+  height: 420px;
 }
 
 #promo2 {
-  height: 150px;
+  height: 200px;
 }
 
 #promo3 {
-  height: 230px;
+  height: 200px;
 }
 
 .gallery-item{
