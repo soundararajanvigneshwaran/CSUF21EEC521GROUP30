@@ -1,9 +1,16 @@
-#header, #footer {
-  background-color: lightgoldenrodyellow;
+#header{
+  background-image: url('../CSUF21EEC521GROUP30/BackgroundHF/BGH.jpg');
 }
 
+#header{
+  height: 180px;
+}
+
+#footer{
+  background-image: url('../CSUF21EEC521GROUP30/BackgroundHF/BGF4.jpg');
+}
 #footer {
-  height: 100px;
+  height: 150px;
 }
 
 #promo1, #promo2, #promo3 {
@@ -15,11 +22,11 @@
 }
 
 #promo2 {
-  height: 200px;
+  height: 180px;
 }
 
 #promo3 {
-  height: 200px;
+  height: 210px;
 }
 
 .gallery-item{
