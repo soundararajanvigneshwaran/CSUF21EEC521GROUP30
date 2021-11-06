@@ -27,43 +27,49 @@
 <div class="col d-flex flex-row justify-content-end"> 
 
  
-  <h4> <button class="subnavbtn" onclick="location.href = 'index.html'">Home </h4> 
+    <h4> <b> <button class="subnavbtn" onclick="location.href = '../index.html'">Home</b> </h4> 
     
-    <h4> <b> <button class="dropbtn" onclick="location.href = 'pages/1.html'">Menu</button> </b> </h4>
-    <h4> <b> <button class="dropbtn" onclick="location.href = 'reviews.html'">Our clients have spoken</button> </b> </h4>
+        <h4> <b> <button class="dropbtn" onclick="location.href = 'menu.html'">Menu</button> </b> </h4>
     
+    
+<h4><button onclick="document.getElementById('id01').style.display='block'"><b>Login</b></button> </h4>
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+      
+    </div>
+  </form>
+</div>
+  
 
   </div>
   </div>
 
   </div>
   </div>
-
-  <div id="promotions" class="row py-4">
-  <div class="col">
-  <div id="promo1" class="w-100 d-flex justify-content-center align-items-center">
-  <img src="Promotions/promo1.jpg" class="d-block w-80 h-100" alt="...">
-
-  </div>
-  </div>
-
-    <div class="col d-flex flex-column justify-content-between">
-    <div id="promo2" class="w-100 d-flex justify-content-center align-items-center">
-
-     <img src="Promotions/Promo2.jpg" class="d-block w-100" alt="...">
-           
-
-      </div>
-       
-      <div class="col d-flex flex-column justify-content-between"></div>
-       <div id="promo3" class="w-100 d-flex justify-content-center align-items-center">
-
-         <img src="Promotions/Promo3.jpg" class="d-block w-100" alt="...">
-         
-
-          </div> 
-        </div>
-      </div>
 
       <div id="gallery">
 
