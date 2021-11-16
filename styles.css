@@ -45,34 +45,90 @@
   height: 230px;
 }
 
-.gallery-item{
+.gallery-item-1{
+  width: 800px;
+}
+.gallery-item-2{
+  width: 800px;
+}
+.gallery-item-3{
+  width: 800px;
+}
+.gallery-item-4{
+  width: 800px;
+}
+.gallery-item-5{
+  width: 800px;
+}
+.gallery-item-6{
+  width: 800px;
+}
+.gallery-item-7{
+  width: 800px;
+}
+.gallery-item-8{
   width: 800px;
 }
 .carousel-inner {
   height: 800px;
 }
 
-#gallery-item-1 {
+.form-group{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
-#gallery-item-2 {
+.form-group{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
-#gallery-item-3 {
-}
+.form-group input,
+.form-group textarea{
+width: 100%;
+padding: 5px;
+font-size: 18px;
+border: 1px solid rgba(128, 128, 128, 0.199);
+margin-top: 5px;
+} 
 
-#gallery-item-4 {
+textarea{
+    resize: vertical;
 }
-
-#gallery-item-5 {
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
 }
-
-#gallery-item-6 {
+button[type="submit"]:hover{
+    background-color: rgb(214, 226, 236);
 }
-
-#gallery-item-7 {
+#status{
+    width:90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
 }
-
-#gallery-item-8 {
+#status.success{
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+}
+#status.error{
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease delay forwards;
 }
 

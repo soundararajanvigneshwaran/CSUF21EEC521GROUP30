@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+<link rel="stylesheet" href="styles.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Divide</title>
+
+<style>
+body {background-image: url('Images/Backgroundcontact.jpg')}
+
+  H1 {color: black;}
+  p {color: black;}
+  </style>
+  </head>
+
+<body>
+  <div class="container">
+  <div id="header" class="row px-4">
+  <div class="col"> 
+  <div id="row1" class="row py-4">
+  <h2><i> <b>Divide's Italian Restaurant </b></i></h2>
+  <p> <i> It's about experience with us </b> </i></p>
+  </div>
+
+<div id="row2" class="row py-2">
+<div class="col d-flex flex-row justify-content-end"> 
+
+  <h4> <button class="subnavbtn" onclick="location.href = 'index.html'">Home </h4> 
+    
+    <h4> <b> <button class="dropbtn" onclick="location.href = 'menucards.html'">Menu</button> </b> </h4>
+    <h4> <b> <button class="dropbtn" onclick="location.href = 'reviews.html'">Our clients have spoken</button> </b> </h4>
+    <h4> <b> <button class="dropbtn" onclick="location.href = 'contact.html'">Contact Divide</button> </b> </h4>
+
+  </div>
+  </div>
+
+  </div>
+  </div>
+
+
+
+  <body>
+      <section>
+<div class="container">
+<form action="https://formspree.io/f/xrgrnlwd" method="POST" id="my-form">
+
+    <div class="form-group">
+        <label for="query">
+            <i><B>Type of Query </B></i>
+        </label>
+        <select name="myQuery" id="query">
+            <option value="sel" selected>
+                Select
+            </option>
+            <option value="order">
+                Order related
+            </option>
+            <option value="Site">
+                Site related
+            </option>
+            <option value="feedback">
+                Complaint related
+            </option>
+            <option value="Rating">
+                Rate on Divide's
+            </option>
+            <option value="Review">
+                Submit Review
+            </option>
+            <option value="others">
+                Others
+            </option>
+        </select>
+
+    </div>
+
+<div class="form-group">
+    <label for="firstName"> <i><B> First Name </i></B></label>
+    <input type="text" id="firstName" name="firstName">
+</div>
+
+
+<div class="form-group">
+<label for="lastName"> <i> <B> Last Name </i> </B></label>
+<input type="text" id="lastName" name="lastName">
+
+</div>
+
+
+<div class="form-group">
+    <label for="email"><i><B>Email-Id</B></i></label>
+    <input type="email" name="myEmail" 
+        id="email" 
+        placeholder="Enter your email">
+
+<div class="form-group">
+    <label for="pho"><i><B>Phone Number</B></i></label>
+    <input type="phone" name="myPhone" 
+        id="pho" 
+        placeholder="Enter your Phone no">
+</div>
+
+<div id="radio">
+    <i><B>Are you a member of Divide’s</B></i>:
+    <i>Yes</i> <input type="radio" name="eligible">
+    <i>No</i> <input type="radio" name="eligible">
+</div>
+
+
+<div class="form-group">
+    <label for="message">
+        <i><B>Type your Message</B></i>
+    </label>
+    
+    <textarea name="mesg" id="message" cols="30" rows="10"> </textarea>
+</div>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</div>
+<div id="status"></div>
+    </section>
+    <script src="../CSUF21EEC521GROUP30/main.js"></script>
+</body>
+</html>
