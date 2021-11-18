@@ -23,7 +23,7 @@
     font-style: italic;
 }
 .div2{
-    background-image: url('BackgroundHF/BGF4.jpg');
+    background-image: url('BackgroundHF/BGF.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 150px;
@@ -520,7 +520,8 @@ top:-0%;left:0;
 }
 .kidsmenu .box-container .box:hover .overlay{
     opacity: 1; 
-}nav{
+}
+nav{
     background-color: black;
     display: grid;
     place-items: center;
