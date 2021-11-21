@@ -1,27 +1,44 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Reviews Submit Form</title>
-    </head>
-    <body>
-        <form>
-            <table>
-                <tr>
-                    <td>Name: </td>
-                    <td><input type="text" name="customername"></td>
-                </tr>
-                <tr>
-                    <td>Password: </td>
-                    <td><input type="password" name="password"></td>
-                </tr>
-                <tr>
-                    <td>Review Comments: </td>
-                    <td><input type="text" name="reviews"></td>
-                </tr>
-                <tr>
-                    <td><input type="submit" name="Submit"></td>
-                </tr>
-            </table>
-        </form>
-    </body>
+<head>
+  <title>Feedback Form</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>First Name :</td>
+    <td><input type="text" name="firstname" required></td>
+   </tr>
+   <tr>
+    <td>Last Name :</td>
+    <td><input type="text" name="lastname" required></td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="emailid" required></td>
+   </tr> 
+   <tr>
+    <td>Phone number :</td>
+    <td>
+     <input type="phone" name="phonenumber" required>
+    </td>
+   </tr>
+   <tr>
+    <td>Divide's member :</td>
+    <td>
+     <input type="radio" name="member" value="y" required>Yes
+     <input type="radio" name="member" value="n" required>No
+    </td>
+   </tr>
+   <tr>
+    <td>Response :</td>
+    <td><input type="text" name="response" required></td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="submit" name="submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
 </html>
