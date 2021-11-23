@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
                 $stmt = $conn->prepare($INSERT);
                 $stmt->bind_param("sssiss",$firstname, $lastname, $emailid, $phonenumber, $member, $response);
                 $stmt->execute();
-                    echo "New record inserted sucessfully.";
+                    echo "Thank you for the Feedback.";
                 }
                 else {
                 echo "Someone already registers using this email.";
