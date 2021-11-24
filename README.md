@@ -1,4 +1,4 @@
-**Website for Italian Restaurant**
+**Website for Divide's Italian Restaurant**
 
 
 **Description:**
@@ -6,10 +6,19 @@ Customer satisfaction is one of the most and important aspects, particularly in 
 
 
 **Features:**
-Homepage about, menu, content, images, promotions, hours operation, takeout/delivery options and contact information, etc
+Homepage about, menu, content, images, promotions, hours operation, contact information and Customer Feedback
 
 
 **Technologies:**
 HTML,
 CSS,
-Bootstrap
+Bootstrap,
+PHP,
+
+**Database:**
+Mysql Database
+
+**IDE:**
+Visual Studio Code
+XAMPP (apache server)
+phpmyadmin
