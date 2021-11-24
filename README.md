@@ -19,6 +19,6 @@ PHP,
 Mysql Database
 
 **IDE:**
-Visual Studio Code
-XAMPP (apache server)
+Visual Studio Code,
+XAMPP (apache server),
 phpmyadmin
