@@ -1,0 +1,134 @@
+#header{
+  background-image: url('../CSUF21EEC521GROUP30/BackgroundHF/BGH.jpg');
+}
+
+#header{
+  height: 180px;
+}
+
+#footer{
+  background-image: url('../CSUF21EEC521GROUP30/BackgroundHF/BGF4.jpg');
+}
+#footer {
+  height: 150px;
+}
+
+#promo1, #promo2, #promo3 {
+  background-color: grey;
+}
+
+#promo1 {
+  height: 420px;
+}
+
+#promo2 {
+  height: 180px;
+}
+
+#promo3 {
+  height: 210px;
+}
+
+#reviewText, #reviewImage1, #reviewImage2 {
+  background-color: white;
+}
+
+#reviewText {
+  height: 500px;
+}
+
+#reviewImage1 {
+  height: 240px;
+}
+
+#reviewImage2 {
+  height: 230px;
+}
+
+.gallery-item-1{
+  width: 800px;
+}
+.gallery-item-2{
+  width: 800px;
+}
+.gallery-item-3{
+  width: 800px;
+}
+.gallery-item-4{
+  width: 800px;
+}
+.gallery-item-5{
+  width: 800px;
+}
+.gallery-item-6{
+  width: 800px;
+}
+.gallery-item-7{
+  width: 800px;
+}
+.gallery-item-8{
+  width: 800px;
+}
+.carousel-inner {
+  height: 800px;
+}
+
+.form-group{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form-group{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea{
+width: 100%;
+padding: 5px;
+font-size: 18px;
+border: 1px solid rgba(128, 128, 128, 0.199);
+margin-top: 5px;
+} 
+
+textarea{
+    resize: vertical;
+}
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+}
+button[type="submit"]:hover{
+    background-color: rgb(214, 226, 236);
+}
+#status{
+    width:90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#status.success{
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+}
+#status.error{
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease delay forwards;
+}
+
