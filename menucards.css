@@ -1,0 +1,549 @@
+*{
+    margin:0;
+    padding: .2rem;
+    font-family: sans-serif;
+    box-sizing: border-box    ;
+}
+.div1{
+    background-image: url('BackgroundHF/BGH.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 180px;
+}
+.headerdetails1{
+    font-size: 1.5rem;
+    color: black;
+    text-align: left;
+    font-style: italic;
+}
+.headerdetails2{
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    font-style: italic;
+}
+.div2{
+    background-image: url('BackgroundHF/BGF.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 150px;
+}
+.footerdetails{
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+}
+h1{
+text-align: center;
+columns: green;
+padding: 20px;
+}
+h4{
+    padding: 5px;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.appitizer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.appitizer .box-container .box{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(8, 8, 8,.1);
+    border: .1rem solid rgb(8, 8, 8,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.appitizer .box-container .box .image{
+    width:100%;
+height:100%;
+position: absolute;
+object-fit: cover;
+top:-0%;left:0;
+}
+.appitizer .box-container .box .content{
+    text-align: center;
+    background:whitesmoke;
+    padding: 2rem;
+    top:-100%;left:0;   
+}
+.appitizer .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: black;;
+}
+.appitizer .box-container .box .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.appitizer .box-container .box:hover .image{
+    opacity: 1;
+    
+}
+.appitizer .box-container .box:hover .overlay{
+    opacity: 1; 
+}
+
+.salads .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.salads .box-container .box{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(8, 8, 8,.1);
+    border: .1rem solid rgb(8, 8, 8,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.salads .box-container .box .image{
+    width:100%;
+height:100%;
+position: absolute;
+object-fit: cover;
+top:-0%;left:0;
+}
+.salads .box-container .box .content{
+    text-align: center;
+    background:whitesmoke;
+    padding: 2rem;
+    top:-100%;left:0;   
+}
+.salads .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: black;;
+}
+.salads .box-container .box .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.salads .box-container .box:hover .image{
+    opacity: 1;       
+}
+.salads .box-container .box:hover .overlay{
+    opacity: 1; 
+}
+.entress .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.entress .box-container .box{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(8, 8, 8,.1);
+    border: .1rem solid rgb(8, 8, 8,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.entress .box-container .box .image{
+    width:100%;
+    height:100%;
+    position: absolute;
+    object-fit: cover;
+    top:-0%;left:0;
+}
+.entress .box-container .box .content{
+    text-align: center;
+    background:whitesmoke;
+    padding: 2rem;
+    top:-100%;left:0;   
+}
+.entress .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: black;;
+}
+.entress .box-container .box .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.entress .box-container .box:hover .image{
+    opacity: 1;       
+}
+.entress .box-container .box:hover .overlay{
+    opacity: 1; 
+}
+.pastas .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.pastas .box-container .box{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(8, 8, 8,.1);
+    border: .1rem solid rgb(8, 8, 8,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.pastas .box-container .box .image{
+    width:100%;
+height:100%;
+position: absolute;
+object-fit: cover;
+top:-0%;left:0;
+}
+.pastas .box-container .box .content{
+    text-align: center;
+    background:whitesmoke;
+    padding: 2rem;
+    top:-100%;left:0;   
+}
+.pastas .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: black;;
+}
+.pastas .box-container .box .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.pastas .box-container .box:hover .image{
+    opacity: 1;       
+}
+.pastas .box-container .box:hover .overlay{
+    opacity: 1; 
+}
+.pizzas .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.pizzas .box-container .box{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(8, 8, 8,.1);
+    border: .1rem solid rgb(8, 8, 8,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.pizzas .box-container .box .image{
+    width:100%;
+    height:100%;
+    position: absolute;
+    object-fit: cover;
+    top:-0%;left:0;
+}
+.pizzas .box-container .box .content{
+    text-align: center;
+    background:whitesmoke;
+    padding: 2rem;
+    top:-100%;left:0;   
+}
+.pizzas .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: black;;
+}
+.pizzas .box-container .box .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.pizzas .box-container .box:hover .image{
+    opacity: 1;       
+}
+.pizzas .box-container .box:hover .overlay{
+    opacity: 1; 
+}
+.sides .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.sides .box-container .box{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(8, 8, 8,.1);
+    border: .1rem solid rgb(8, 8, 8,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.sides .box-container .box .image{
+    width:100%;
+height:100%;
+position: absolute;
+object-fit: cover;
+top:-0%;left:0;
+}
+.sides .box-container .box .content{
+    text-align: center;
+    background:whitesmoke;
+    padding: 2rem;
+    top:-100%;left:0;   
+}
+.sides .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: black;;
+}
+.sides .box-container .box .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.sides .box-container .box:hover .image{
+    opacity: 1;       
+}
+.sides .box-container .box:hover .overlay{
+    opacity: 1; 
+}
+.desserts .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.desserts .box-container .box{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(8, 8, 8,.1);
+    border: .1rem solid rgb(8, 8, 8,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.desserts .box-container .box .image{
+    width:100%;
+height:100%;
+position: absolute;
+object-fit: cover;
+top:-0%;left:0;
+}
+.desserts .box-container .box .content{
+    text-align: center;
+    background:whitesmoke;
+    padding: 2rem;
+    top:-100%;left:0;   
+}
+.desserts .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: black;;
+}
+.desserts .box-container .box .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.desserts .box-container .box:hover .image{
+    opacity: 1;       
+}
+.desserts .box-container .box:hover .overlay{
+    opacity: 1; 
+}
+.kidsmenu .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.kidsmenu .box-container .box{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(8, 8, 8,.1);
+    border: .1rem solid rgb(8, 8, 8,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.kidsmenu .box-container .box .image{
+    width:100%;
+height:100%;
+position: absolute;
+object-fit: cover;
+top:-0%;left:0;
+}
+.kidsmenu .box-container .box .content{
+    text-align: center;
+    background:whitesmoke;
+    padding: 2rem;
+    top:-100%;left:0;   
+}
+.kidsmenu .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: black;;
+}
+.kidsmenu .box-container .box .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.kidsmenu .box-container .box:hover .image{
+    opacity: 1;       
+}
+.kidsmenu .box-container .box:hover .overlay{
+    opacity: 1; 
+}
+nav{
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color:blanchedalmond;
+    transition: 0.2s ease-in;
+    font-size:18 px;
+}
+nav ul a:hover{
+    background: brown;
+    color:white;
+}
+
+
+@media (max-width:991px)
+{
+
+}
